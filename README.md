@@ -1,115 +1,108 @@
-# ParkUdeA  
-**Sistema de Gestión de Parqueadero - Universidad de Antioquia**
+# ParkUdeA – Sistema de Parqueadero
+
+Este proyecto fue desarrollado por estudiantes de Ingeniería Industrial de la Universidad de Antioquia. La idea principal fue crear una aplicación que permita gestionar de forma digital el ingreso y salida de vehículos en el parqueadero de la universidad, reemplazando el proceso manual en papel por uno automatizado y más eficiente.
 
 ---
 
-## 1. Integrantes
+## ¿Quiénes somos?
 
-- **Jeronimo Acevedo Bustamante** – Responsable de análisis de requisitos y diseño  
-- **Diego Antonio Villa Florez** – Encargado de desarrollo backend y lógica del sistema  
-- **Maria Isabel Urrego Jiménez** – Documentación, pruebas y control de versiones  
+Somos un grupo de tres estudiantes con distintos roles dentro del desarrollo del sistema:
 
-Este equipo multidisciplinario combina habilidades técnicas y de gestión que permitieron llevar a cabo un desarrollo ordenado, con foco en la eficiencia del sistema y la experiencia del usuario.
-
----
-
-## 2. Vínculos académicos y perfil de los integrantes
-
-**Jeronimo Acevedo Bustamante**  
-- Programa: Ingeniería Industrial  
-- Fortalezas: liderazgo, organización de equipos, levantamiento de requisitos, enfoque en la experiencia de usuario.
-
-**Diego Antonio Villa Florez**  
-- Programa: Ingeniería Industrial  
-- Fortalezas: programación en Python, desarrollo de algoritmos, pensamiento lógico, estructuración de flujos de datos.
-
-**Maria Isabel Urrego Jiménez**  
-- Programa: Ingeniería Industrial  
-- Fortalezas: documentación técnica, pruebas funcionales, control de versiones, atención al detalle.
+- **Jeronimo Acevedo Bustamante**: se encargó principalmente del análisis de requisitos y del diseño general del sistema.
+- **Diego Antonio Villa Florez**: trabajó en toda la parte de la programación, la lógica del sistema y el backend.
+- **Maria Isabel Urrego Jiménez**: se enfocó en las pruebas, documentación y todo lo relacionado con versiones y cambios en el código.
 
 ---
 
-## 3. Nombre del proyecto y descripción
+## Nuestro enfoque académico
 
-**Nombre del proyecto:** ParkUdeA  
-**Descripción:**  
-ParkUdeA es una aplicación de consola desarrollada en Python que permite gestionar de manera eficiente el ingreso, permanencia y salida de vehículos en el parqueadero de la Universidad de Antioquia. Además de registrar usuarios y calcular automáticamente los cobros, el sistema genera facturas con sellos temporales, reportes administrativos en tiempo real y exportación de datos para análisis.
+Todos somos del programa de Ingeniería Industrial. Cada uno aportó desde sus fortalezas:
 
-**Imagen representativa:**  
-(Foto alusiva al sistema de parqueadero, no de los integrantes)
-
----
-
-## 4. Licencia del software
-
-**Tipo de licencia:** [CC BY-NC-SA 4.0 – Atribución-NoComercial-CompartirIgual 4.0 Internacional](https://creativecommons.org/licenses/by-nc-sa/4.0/)  
-**Descripción:**  
-Permite copiar, distribuir y adaptar el contenido siempre que se reconozca la autoría, no se use con fines comerciales y se mantenga la misma licencia en derivados.
+- Jeronimo tiene habilidades para coordinar equipos, analizar requerimientos y planificar.
+- Diego domina Python y sabe cómo organizar la lógica de un sistema desde cero.
+- Maria es muy detallista con las pruebas, escribe documentación clara y sabe trabajar con Git.
 
 ---
 
-## 5. Reporte de visión
+## ¿Qué es ParkUdeA?
 
-### Objetivo general  
-Digitalizar el proceso de ingreso y salida del parqueadero institucional, reemplazando el registro manual en papel por un sistema rápido, seguro y trazable.
+ParkUdeA es un programa hecho en Python que corre desde la consola. Permite registrar vehículos, controlar su entrada y salida, calcular cuánto deben pagar, generar facturas y sacar reportes para la administración. Todo queda registrado y se puede exportar en archivos como CSV para análisis.
 
-### Funcionalidades clave  
-- Registro y validación de datos (nombre, documento, placa) con retroalimentación inmediata.  
-- Control de entrada/salida de vehículos y emisión de recibos con sello de tiempo.  
-- Cálculo automático de tarifas por horas y fracciones (mínimo una hora).  
-- Generación de reportes sobre ocupación, recaudación y tiempos promedio.  
-- Exportación a CSV para análisis administrativo.  
-- Registro detallado de cada acción realizada, con precisión hasta milisegundos.
-
-### Beneficios esperados  
-- Reducción de errores humanos al eliminar el papel.  
-- Disminución de tiempos de espera y atención.  
-- Seguimiento en tiempo real del estado del parqueadero.  
-- Optimización del recurso humano en actividades repetitivas.  
-- Aumento de la transparencia y seguridad en el manejo de la información.
+> La idea es que cualquier persona encargada del parqueadero pueda usarlo sin necesidad de tener conocimientos técnicos.
 
 ---
 
-## 6. Especificación de requisitos
+## Licencia
 
-### Requisitos funcionales
-- Registro de usuarios con validaciones estrictas.  
-- Manejo del ingreso y salida de vehículos.  
-- Cálculo automático de tarifas con base en duración y reglas preestablecidas.  
-- Generación de facturas digitales.  
-- Visualización y exportación de reportes a CSV.  
-- Acceso diferenciado para administradores.  
-- Registro de cada operación en logs detallados.
-
-### Requisitos no funcionales
-- Interfaz de consola clara y accesible.  
-- Respuesta operativa inferior a 0.5 segundos por acción.  
-- Compatibilidad multiplataforma (Windows, macOS, Linux).  
-- Seguridad en el manejo y almacenamiento de datos.  
-- Registro persistente de logs incluso en eventos imprevistos.  
-- Uso de Git y GitHub como plataforma de colaboración y versionado.
+El proyecto está bajo la licencia **CC BY-NC-SA 4.0**, lo que significa que cualquiera puede usar y modificar el código, siempre y cuando no sea con fines comerciales y se mantenga la misma licencia.
 
 ---
 
-## 7. Plan de proyecto
+## ¿Por qué lo hicimos?
 
-### Cronograma de actividades (por semanas)
+Nos propusimos mejorar el sistema actual del parqueadero de la universidad, que todavía se hace con papel. Con este programa se puede:
 
-| Semana | Actividad |
-|--------|-----------|
-| 1 | Levantamiento de requisitos y organización del equipo |
-| 2-3 | Diseño de algoritmos, menús y estructura modular |
-| 4-5 | Codificación de funcionalidades principales |
-| 5-6 | Pruebas de validación, control de errores, refinamiento |
-| 7 | Implementación de reportes y exportación de datos |
-| 8 | Redacción de documentación final y entrega del proyecto |
+- Registrar a los usuarios y sus vehículos de manera segura.
+- Controlar entradas y salidas con tiempos precisos.
+- Calcular los pagos según el tiempo que el vehículo estuvo en el parqueadero.
+- Sacar reportes de cuánto se ha recaudado o qué tan ocupado está el lugar.
+- Generar todo tipo de comprobantes y guardarlos automáticamente.
+- Reducir el uso de papel y errores humanos.
 
-### Presupuesto de trabajo
-
-- Integrantes: 3 estudiantes  
-- Horas totales: 150 (3 x 50 h)  
-- Equivalencia: Tiempo de práctica profesional no remunerada
+Todo esto se hace de forma casi instantánea y con un registro detallado de cada operación.
 
 ---
 
-> Proyecto académico desarrollado por estudiantes del programa de Ingeniería Industrial - Universidad de Antioquia. Curso: Algoritmia y Programación 2025-1.
+## Funcionalidades principales
+
+- Registro y validación de datos (nombre, documento, placa).
+- Ingreso y retiro de vehículos.
+- Cálculo automático de tarifas por hora (mínimo una hora).
+- Facturas digitales con hora exacta.
+- Reportes en tiempo real sobre ocupación y recaudación.
+- Exportación de datos a CSV.
+- Registro de cada acción con fecha y hora hasta el milisegundo.
+
+---
+
+## Lo que necesitábamos que el programa cumpliera
+
+**Requisitos funcionales:**
+- Registro de usuarios.
+- Manejo del ingreso y salida de vehículos.
+- Cálculo automático de tarifas.
+- Reportes administrativos.
+- Acceso para administrador con clave.
+- Logs de todas las acciones.
+
+**Requisitos no funcionales:**
+- Fácil de usar desde la consola.
+- Compatible con cualquier sistema operativo.
+- Rápido (menos de 0.5 segundos por operación).
+- Seguro y confiable, sin pérdida de información.
+- Guardado constante de datos.
+
+---
+
+## ¿Cómo organizamos el trabajo?
+
+### Cronograma por semanas:
+
+| Semana | Tarea |
+|--------|-------|
+| 1 | Revisión de requisitos y diseño inicial |
+| 2-3 | Organización del código y estructura |
+| 4-5 | Programación de funciones básicas |
+| 6 | Pruebas, ajustes y validaciones |
+| 7 | Reportes, logs y exportación de datos |
+| 8 | Documentación final y entrega |
+
+### Horas invertidas:
+
+- Total de personas: 3  
+- Horas por persona: 50  
+- Total del proyecto: 150 horas
+
+---
+
+> Este proyecto fue realizado como parte del curso "Algoritmia y Programación 2025-1". Agradecemos a los docentes por su acompañamiento y por permitirnos aplicar lo aprendido en un caso real.
