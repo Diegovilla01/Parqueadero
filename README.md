@@ -1,6 +1,6 @@
 # PulsePark UdeA – Sistema de Parqueadero
 
-(https://github.com/Diegovilla01/Trabajo/blob/88599357018fb79bb3a5f7d8b90fdfce546b8acf/LOGO%20PARQUEADERO.png)
+![LOGO PARQUEADERO](https://github.com/user-attachments/assets/e7da787d-fdf3-4f67-a723-0bbd217f415a)
 
 Este proyecto fue desarrollado por estudiantes de Ingeniería Industrial de la Universidad de Antioquia. La idea principal fue crear una aplicación que permita gestionar de forma digital el ingreso y salida de vehículos en el parqueadero de la universidad, reemplazando el proceso manual en papel por uno automatizado y más eficiente.
 
