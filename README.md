@@ -1,4 +1,4 @@
-# ParkUdeA – Sistema de Parqueadero
+# PulsePark UdeA – Sistema de Parqueadero
 
 Este proyecto fue desarrollado por estudiantes de Ingeniería Industrial de la Universidad de Antioquia. La idea principal fue crear una aplicación que permita gestionar de forma digital el ingreso y salida de vehículos en el parqueadero de la universidad, reemplazando el proceso manual en papel por uno automatizado y más eficiente.
 
@@ -24,7 +24,7 @@ Todos somos del programa de Ingeniería Industrial. Cada uno aportó desde sus f
 
 ---
 
-## ¿Qué es ParkUdeA?
+## ¿Qué es PulsePark UdeA?
 
 ParkUdeA es un programa hecho en Python que corre desde la consola. Permite registrar vehículos, controlar su entrada y salida, calcular cuánto deben pagar, generar facturas y sacar reportes para la administración. Todo queda registrado y se puede exportar en archivos como CSV para análisis.
 
