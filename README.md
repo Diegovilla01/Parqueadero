@@ -26,7 +26,7 @@ Todos somos del programa de Ingeniería Industrial. Cada uno aportó desde sus f
 
 ## ¿Qué es PulsePark UdeA?
 
-ParkUdeA es un programa hecho en Python que corre desde la consola. Permite registrar vehículos, controlar su entrada y salida, calcular cuánto deben pagar, generar facturas y sacar reportes para la administración. Todo queda registrado y se puede exportar en archivos como CSV para análisis.
+PulseParkUdeA es un programa hecho en Python que corre desde la consola. Permite registrar vehículos, controlar su entrada y salida, calcular cuánto deben pagar, generar facturas y sacar reportes para la administración. Todo queda registrado y se puede exportar en archivos como CSV para análisis.
 
 > La idea es que cualquier persona encargada del parqueadero pueda usarlo sin necesidad de tener conocimientos técnicos.
 
