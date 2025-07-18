@@ -4,9 +4,9 @@
 **Sistema de Gestión de Parqueadero PulsePark UdeA**
 
 **Desarrollado por:**  
-Maria Isabel Urrego Jimenez
-Diego Antonio Villa Florez
-Jerónimo Acevedo Bustamante
+- Maria Isabel Urrego Jimenez
+- Diego Antonio Villa Florez
+- Jerónimo Acevedo Bustamante
 
 **Universidad de Antioquia**
 
