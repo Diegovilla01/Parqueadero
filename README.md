@@ -86,27 +86,6 @@ Todo esto se hace de forma casi instantánea y con un registro detallado de cada
 - Guardado constante de datos.
 
 ---
-
-## ¿Cómo organizamos el trabajo?
-
-### Cronograma por semanas:
-
-| Semana | Tarea |
-|--------|-------|
-| 1 | Revisión de requisitos y diseño inicial |
-| 2-3 | Organización del código y estructura |
-| 4-5 | Programación de funciones básicas |
-| 6 | Pruebas, ajustes y validaciones |
-| 7 | Reportes, logs y exportación de datos |
-| 8 | Documentación final y entrega |
-
-### Horas invertidas:
-
-- Total de personas: 3  
-- Horas por persona: 50  
-- Total del proyecto: 150 horas
-
----
 ### Diagrama de Gantt
 <img width="1300" height="399" alt="chart" src="https://github.com/user-attachments/assets/88adebf6-3f22-49fd-86eb-cee705c45e5f" />
 
