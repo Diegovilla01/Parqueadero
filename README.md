@@ -108,4 +108,14 @@ Todo esto se hace de forma casi instantánea y con un registro detallado de cada
 
 ---
 
+
+Primera versión(1.0.0):
+El objetivo principal era crear una aplicación sencilla que permitiera gestionar las entradas y salidas de vehículos dentro de un parqueadero. Se utilizó un menú en la consola, fácil de entender, que guiaba al usuario a través de las opciones disponibles. Todo el funcionamiento se basó en condicionales simples (if, elif, else), lo cual facilitaba la lectura y comprensión del código, especialmente para alguien sin mucha experiencia en programación. Pero esta simplicidad también trajo limitaciones, el código era repetitivo, poco flexible, y no estaba preparado para manejar errores o datos de forma eficiente. A pesar de eso, cumplía con lo básico y sirvió como una buena base para comenzar.
+
+Segunda versión(1.1.0):
+En esta versión se realizaron mejoras importantes en la organización del proyecto. Se comenzó a dividir el código en archivos separados, cada uno encargado de una parte específica del sistema, lo cual permitió tener un programa más claro y ordenado. También se añadieron validaciones para evitar errores comunes, como dejar campos vacíos o ingresar valores incorrectos. Además, se empezó a guardar la información en archivos externos, permitiendo conservar los registros entre ejecuciones. Esto mejoró bastante la experiencia del usuario y facilitó la ampliación del proyecto. Aunque seguía siendo una aplicación de consola, se sentía más estable y profesional que la versión anterior.
+
+Tercera versión(2.0.0):
+Esta fue una versión con cambios significativos tanto en la lógica interna como en la presentación general del programa. Se reorganizó por completo el código para hacerlo más compacto, reutilizable y fácil de mantener. Se usaron herramientas más avanzadas y se implementaron buenas prácticas de programación que permitieron reducir errores y mejorar la eficiencia. También se añadió un sistema de registro (logs), lo que permitió guardar información sobre los eventos que ocurren durante el uso del sistema, como entradas y salidas. El menú fue refinado para ofrecer una navegación más fluida, con mensajes claros y respuestas rápidas. Esta versión marcó un paso importante hacia una aplicación mucho más robusta y profesional.
+
 > Este proyecto fue realizado como parte del curso "Algoritmia y Programación 2025-1". Agradecemos a los docentes por su acompañamiento y por permitirnos aplicar lo aprendido en un caso real.
