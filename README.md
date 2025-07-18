@@ -107,6 +107,8 @@ Todo esto se hace de forma casi instantánea y con un registro detallado de cada
 - Total del proyecto: 150 horas
 
 ---
+<img width="1300" height="399" alt="chart" src="https://github.com/user-attachments/assets/88adebf6-3f22-49fd-86eb-cee705c45e5f" />
+
 
 
 ### Primera versión(1.0.0):
