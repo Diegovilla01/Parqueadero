@@ -4,7 +4,10 @@
 **Sistema de Gestión de Parqueadero PulsePark UdeA**
 
 **Desarrollado por:**  
-Maria, Diego, Jerónimo – Universidad de Antioquia
+Maria Isabel Urrego Jimenez
+Diego Antonio Villa Florez
+Jerónimo Acevedo Bustamante
+**Universidad de Antioquia**
 
 **Docente:**  
 Julián Andrés Castillo
