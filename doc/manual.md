@@ -41,7 +41,7 @@ El programa permite gestionar el uso de un parqueadero de automóviles de manera
 
 1. **Descargar el proyecto:**
    ```bash
-   [https://github.com/Diegovilla01/Parqueadero]
+   https://github.com/Diegovilla01/Parqueadero
    ```
 
 2. **Ubicarse en la carpeta del código fuente:**
